@@ -92,6 +92,7 @@ config FB_MSM_MDSS_FRC_DEBUG
 	statistics and check whether its output pattern matches expected
 	cadence.
 
+<<<<<<< HEAD
 config FB_MSM_MDSS_STATIC_MBL
 	depends on FB_MSM_MDSS
 	bool "Set max brightness level to 255 unconditionally"
@@ -100,6 +101,8 @@ config FB_MSM_MDSS_STATIC_MBL
 	This configuration will bypass device tree defined max brightness level
 	setting. Instead, this will set 255 as value regardless the original value.
 
+=======
+>>>>>>> 136139af0b12c272adeaa65c28de9c44ee1dad10
 config FB_MSM_MDSS_KCAL_CTRL
 	depends on FB_MSM_MDSS
 	bool "MDSS color control"
